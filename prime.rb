@@ -10,6 +10,6 @@ def prime?(int)
     if int % i == 0 && i < int
       false 
     end
+    true
   end 
-  true 
 end
