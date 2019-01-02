@@ -2,7 +2,7 @@ def prime?(int)
   if int < 2 
     return false 
   end 
-  (2..Math.sqrt(int)).each { |i|
+  for i in 2..Math.sqrt(int) { |i|
   if int % i == 0 && i < int
     false
   end
