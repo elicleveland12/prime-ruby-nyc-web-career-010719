@@ -7,5 +7,6 @@ def prime?(int)
   if int % i == 0 && i < int
     false
   end
+end 
   true
 end
