@@ -7,7 +7,7 @@ def prime?(int)
   end 
   num =* (2..Math.sqrt(int.abs).ceil)
   num.each do |i|
-    if int % i == 0 && i < int
+    if int % i == 0
       false 
     end
   end 
