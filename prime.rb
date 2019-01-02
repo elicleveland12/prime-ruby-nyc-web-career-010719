@@ -1,5 +1,5 @@
 def prime?(int)
-  if int < 2 && int > 0
+  if int < 2
     return false 
   end 
   num =* (2..Math.sqrt(int))
