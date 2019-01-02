@@ -2,10 +2,10 @@ def prime?(int)
   if int < 2 
     return false 
   end 
-  (2..Math.sqrt(int)).each { |i|
+  num =* (2..Math.sqrt(int))
+  num.each do |i|
   if int % i == 0 && i < int
     false
   end
-  }
   true
 end
