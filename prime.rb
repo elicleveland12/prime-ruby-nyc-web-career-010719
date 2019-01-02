@@ -5,8 +5,8 @@ def prime?(int)
   if int.abs % 2 == 0 && int.abs != 2 
     return false 
   end 
-  (2..Math.sqrt(int.abs)).to_a 
-  a.each do |i|
+  num =* (2..Math.sqrt(int.abs))
+  num.each do |i|
     if int % i == 0 && i < int
       false 
     end
