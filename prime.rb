@@ -4,9 +4,9 @@ def prime?(int)
   end 
   num =* (2..Math.sqrt(int))
   num.each do |i|
-  if int % i == 0 && i < int
-    false
+  if int % i !== 0 && i < int
+    true 
   end
 end 
-  true
+  false
 end
